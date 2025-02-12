@@ -1,7 +1,0 @@
-<% if(locals.errors && locals.errors.length > 0) { %>
-<ul class="errorUL">
-  <% errors.forEach(error => { %> <% if(error.path === path) { %>
-  <li><%= error.msg %></li>
-  <% } %> <% }) %>
-</ul>
-<% } %>
