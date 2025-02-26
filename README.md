@@ -183,41 +183,7 @@ spec:
 
 ---
 
-## 🔍 **Security Best Practices (DevSecOps)**  
-
-✅ **Container Security Scanning**  
-🔹 Run **Trivy** to scan vulnerabilities  
-```sh
-trivy image your-dockerhub-username/netflix-clone:latest
-```
-
-✅ **Dependency Security**  
-🔹 Use **Snyk** & **npm audit** for package security  
-```sh
-npm audit
-snyk test
-```
-
-✅ **Runtime Security**  
-🔹 Deploy **Falco** for Kubernetes runtime security  
-```sh
-helm install falco falcosecurity/falco
-```
-
-✅ **Code Security**  
-🔹 Run **OWASP ZAP** for penetration testing  
-```sh
-zap-cli quick-scan http://your-app-url
-```
-
----
-
-## 📞 **Contact**  
-🔹 **Author**: Aman Pathak  
-🔹 **GitHub**: [@crazy-man22](https://github.com/crazy-man22)  
-🔹 **Twitter**: [@amanpathak](https://twitter.com/amanpathak)  
-
-> 💡 *Contributions are welcome! Feel free to submit a pull request.* 🚀  
+  
 
 ---
 
